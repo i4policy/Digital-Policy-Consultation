@@ -46,12 +46,12 @@ Rails.application.configure do
 
   config.cache_store = :dalli_store
 
-  config.after_initialize do
-    Bullet.enable = true
-    Bullet.bullet_logger = true
-    if ENV['BULLET']
-      Bullet.rails_logger = true
-      Bullet.add_footer = true
-    end
-  end
+  # config.after_initialize do
+  #   Bullet.enable = true
+  #   Bullet.bullet_logger = true
+  #   if ENV['BULLET']
+  #     Bullet.rails_logger = true
+  #     Bullet.add_footer = true
+  #   end
+  # end
 end
