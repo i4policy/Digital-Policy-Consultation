@@ -21,6 +21,9 @@ Rails.application.configure do
   # Deliver emails to a development mailbox at /letter_opener
   config.action_mailer.delivery_method = :sendmail
 
+  config.action_mailer.default_url_options = { host: Rails.application.secrets.server_name }
+  config.action_mailer.asset_host = "http://#{Rails.application.secrets.server_name}"
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
