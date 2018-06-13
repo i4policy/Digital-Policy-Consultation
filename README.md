@@ -7,9 +7,9 @@ This is the opensource code repository of the digital policy consultation tool t
 ### Web App: 
 We are going to modify a fork of Consul (information and documentation can be found below), a civic engagement tool developed by the city council of Madrid from 2015 onward. The core user story is as follows: 
 
-*a) As a User, I want to see how the consultation works so that I know what I’m supposed to do.
+* a) As a User, I want to see how the consultation works so that I know what I’m supposed to do.
 
-*b) As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
+* b) As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
 
 *c) As a User, I want to see my tangible contribution so that I can feel proud of my contribution, share it, and encourage others to get involved. 
 
