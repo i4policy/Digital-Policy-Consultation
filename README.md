@@ -5,42 +5,37 @@ This is the opensource code repository of the digital policy consultation tool t
 ## User Stories
 
 ### Web App: 
-a) As a User, I want to see how the consultation works so that I know what I’m supposed to do.
+We are going to modify a fork of Consul (information and documentation can be found below), a civic engagement tool developed by the city council of Madrid from 2015 onward. The core user story is as follows: 
 
-b) As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
+*a) As a User, I want to see how the consultation works so that I know what I’m supposed to do.
 
-c) As a User, I want to see my tangible contribution so that I can feel proud of my contribution, share it, and encourage others to get involved. 
+*b) As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
 
-d) As a User, I want to be able to remain anonymous to the admin with my contribution. 
+*c) As a User, I want to see my tangible contribution so that I can feel proud of my contribution, share it, and encourage others to get involved. 
 
-e) As a User, I want to be notified when the final version of the policy is released. 
+*d) As a User, I want to be able to remain anonymous to the admin with my contribution. 
 
-f) As an Admin, I want to be able to see all of the inputs from the consultation.
+*e) As a User, I want to be notified when the final version of the policy is released. 
 
-g) As an Admin, I want to be able to respond and interact with specific pieces of feedback and deliberation so that I can get more clarity or provide further clarity. 
+*f) As an Admin, I want to be able to see all of the inputs from the consultation.
 
-h) As an Admin, I want to be able to publish the revised, final version of the policy to the platform for users to see. 
+*g) As an Admin, I want to be able to respond and interact with specific pieces of feedback and deliberation so that I can get more clarity or provide further clarity. 
+
+*h) As an Admin, I want to be able to publish the revised, final version of the policy to the platform for users to see.
 
 ### Messenger Bot: 
 
-a) As a User, I want to read the policy in a digestible, non-overwhelming format so that I can get a grip on each section. 
-
-b) As a User, I want to be able to provide my feedback on every section through the bot. 
-
-c) As a User, I want to be able to provide overall feedback on the policy document. 
-
-d) As an Admin, I want to be able to see all of the input from the bot interactions on my admin dashboard. 
-
-
-*Facebook Messenger Bot*
-
 This is in efforts to make the consultation as representative as possible, and cater to a larger part of the population by (a) hitting them on the mediums they are frequenting already and (b) catering to the part of the population that only has access to Free Basics. 
 
-So if somebody doesn’t have access to go onto the web app and access the document that way they should be able to: 
+So if somebody doesn’t have access to go onto the web app and access the document that way they should be able to participate like so:
 
-a) receive the document through the messenger bot 
-b) provide their feedback and input through the bot 
-c) have that feedback be fed into the primary consultation database for the administration to view
+*a) As a User, I want to read the policy in a digestible, non-overwhelming format so that I can get a grip on each section. 
+
+*b) As a User, I want to be able to provide my feedback on every section through the bot. 
+
+*c) As a User, I want to be able to provide overall feedback on the policy document. 
+
+*d) As an Admin, I want to be able to see all of the input from the bot interactions on my admin dashboard. 
 
 We will use one of the Ruby wrappers or Rails libraries for messenger implementation to keep the stack consistent across the board. Will also be handy for the integration, because we want citizen input from the bot and citizen input from the app to essentially feed into the same db. 
 
@@ -48,11 +43,7 @@ We are using the following Ruby client to build the bot into the application:
 
 https://github.com/jgorset/facebook-messenger
 
-*Web App*
-
-We are going to modify a fork of Consul, a civic engagement tool developed by the city council of Madrid from 2015 onward, please see below for the information and full documentation: 
-
-# CONSUL
+# Using CONSUL
 
 Citizen Participation and Open Government Application
 
