@@ -1,4 +1,4 @@
-# i4Policy 
+# i4Policy Digital Policy Consultation
 
 This is the opensource code repository of the digital policy consultation tool that will serve as the backbone for policy consultations across several countries in Africa and beyond. There are two key components to the app: a) web-app b) messenger bot. 
 
