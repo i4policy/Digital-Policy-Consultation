@@ -49,7 +49,8 @@ We are using the following Ruby client to build the bot into the application:
 
 https://github.com/jgorset/facebook-messenger
 
-# All About CONSUL
+# See Below for further Information on Consul
+## CONSUL
 
 Citizen Participation and Open Government Application
 
