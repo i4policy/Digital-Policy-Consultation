@@ -4,7 +4,7 @@ This is the opensource code repository of the digital policy consultation tool t
 
 ## Work Flows
 
-We have a [project board](https://github.com/i4policy/policy_consultation/projects/1) that is interacting with our [issues list](https://github.com/i4policy/policy_consultation/issues) and subsequent pull request on those issues; the issues are labeled accordingly and associated with the [four milestones](https://github.com/i4policy/policy_consultation/milestones). 
+We have a [project board](https://github.com/i4policy/policy_consultation/projects/1) that is interacting with our [issues list](https://github.com/i4policy/policy_consultation/issues) and subsequent pull requests on those issues; the issues are labeled accordingly and associated with the [four milestones](https://github.com/i4policy/policy_consultation/milestones). 
 
 When all the four milestones are completed, we will be ready to deploy the first national online policy consultation in Africa starting July 2nd.
 
@@ -15,7 +15,9 @@ When all the four milestones are completed, we will be ready to deploy the first
 ##### Policy: Innovation and Entrepreneurship Policy Vision 
 
 ### Web App: 
-We are going to modify a fork of Consul (information and documentation can be found below), a civic engagement tool developed by the city council of Madrid from 2015 onward. The core user story is as follows: 
+We are going to modify a fork of Consul (information and documentation can be found below), a civic engagement tool developed by the city council of Madrid from 2015 onward. There are several tools in the Consul suite, however the one that we will be customizing and building off of for the consultation is the legislative processes and collaborative policy capability.
+
+The core user story is as follows: 
 
 * As a User, I want to see how the consultation works so that I know what I’m supposed to do.
 * As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
@@ -43,7 +45,7 @@ We are using the following Ruby client to build the bot into the application:
 
 https://github.com/jgorset/facebook-messenger
 
-# Using CONSUL
+# All About CONSUL
 
 Citizen Participation and Open Government Application
 
