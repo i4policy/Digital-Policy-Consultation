@@ -28,6 +28,8 @@ The core user story is as follows:
 * As an Admin, I want to be able to respond and interact with specific pieces of feedback and deliberation so that I can get more clarity or provide further clarity. 
 * As an Admin, I want to be able to publish the revised, final version of the policy to the platform for users to see.
 
+Relevant Documentation Here: https://consul_docs.gitbooks.io/docs/content/en/
+
 ### Messenger Bot: 
 
 This is in efforts to make the consultation as representative as possible, and cater to a larger part of the population by (a) hitting them on the mediums they are frequenting already and (b) catering to the part of the population that only has access to Free Basics. 
@@ -40,6 +42,8 @@ So if somebody doesn’t have access to go onto the web app and access the docum
 * As an Admin, I want to be able to see all of the input from the bot interactions on my admin dashboard. 
 
 We will use one of the Ruby wrappers or Rails libraries for messenger implementation to keep the stack consistent across the board. Will also be handy for the integration, because we want citizen input from the bot and citizen input from the app to essentially feed into the same db. 
+
+Relevant Documentation Here: https://developers.facebook.com/docs/messenger-platform/introduction
 
 We are using the following Ruby client to build the bot into the application: 
 
