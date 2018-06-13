@@ -1,3 +1,27 @@
+#i4Policy 
+
+This is the opensource code repository of the digital policy consultation tool that will serve as the backbone for policy consultations across several countries in Africa and beyond. There are two key components to the app: a) web-app b) messenger bot. 
+
+*Facebook Messenger Bot*
+
+This is in efforts to make the consultation as representative as possible, and cater to a larger part of the population by (a) hitting them on the mediums they are frequenting already and (b) catering to the part of the population that only has access to Free Basics. 
+
+So if somebody doesn’t have access to go onto the web app and access the document that way they should be able to: 
+
+a) receive the document through the messenger bot 
+b) provide their feedback and input through the bot 
+c) have that feedback be fed into the primary consultation database for the administration to view
+
+We will use one of the Ruby wrappers or Rails libraries for messenger implementation to keep the stack consistent across the board. Will also be handy for the integration, because we want citizen input from the bot and citizen input from the app to essentially feed into the same db. 
+
+We are using the following Ruby client to build the bot into the application: 
+
+https://github.com/jgorset/facebook-messenger
+
+*Web App*
+
+We are going to modify a fork of Consul, a civic engagement tool developed by the city council of Madrid from 2015 onward, please see below for the documentation: 
+
 ![CONSUL logo](https://raw.githubusercontent.com/consul/consul/master/public/consul_logo.png)
 
 # CONSUL
