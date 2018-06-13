@@ -3,20 +3,20 @@
 This is the opensource code repository of the digital policy consultation tool that will serve as the backbone for policy consultations across several countries in Africa and beyond. There are two key components to the app: a) web-app b) messenger bot. 
 
 ## Web App: 
-As a User, I want to see how the consultation works so that I know what I’m supposed to do.
-As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
-As a User, I want to see my tangible contribution so that I can feel proud of my contribution, share it, and encourage others to get involved. 
-As a User, I want to be able to remain anonymous to the admin with my contribution. 
-As a User, I want to be notified when the final version of the policy is released. 
-As an Admin, I want to be able to see all of the inputs from the consultation.
-As an Admin, I want to be able to respond and interact with specific pieces of feedback and deliberation so that I can get more clarity or provide further clarity. 
-As an Admin, I want to be able to publish the revised, final version of the policy to the platform for users to see. 
+a) As a User, I want to see how the consultation works so that I know what I’m supposed to do.
+b) As a User, I want to interact with each sentence and section of the policy document so that I can provide my feedback without any minimum required input. 
+c) As a User, I want to see my tangible contribution so that I can feel proud of my contribution, share it, and encourage others to get involved. 
+d) As a User, I want to be able to remain anonymous to the admin with my contribution. 
+e) As a User, I want to be notified when the final version of the policy is released. 
+f) As an Admin, I want to be able to see all of the inputs from the consultation.
+g) As an Admin, I want to be able to respond and interact with specific pieces of feedback and deliberation so that I can get more clarity or provide further clarity. 
+h) As an Admin, I want to be able to publish the revised, final version of the policy to the platform for users to see. 
 
 ## Messenger Bot: 
-As a User, I want to read the policy in a digestible, non-overwhelming format so that I can get a grip on each section. 
-As a User, I want to be able to provide my feedback on every section through the bot. 
-As a User, I want to be able to provide overall feedback on the policy document. 
-As an Admin, I want to be able to see all of the input from the bot interactions on my admin dashboard. 
+a) As a User, I want to read the policy in a digestible, non-overwhelming format so that I can get a grip on each section. 
+b) As a User, I want to be able to provide my feedback on every section through the bot. 
+c) As a User, I want to be able to provide overall feedback on the policy document. 
+d) As an Admin, I want to be able to see all of the input from the bot interactions on my admin dashboard. 
 
 
 *Facebook Messenger Bot*
