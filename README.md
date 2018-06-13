@@ -2,11 +2,17 @@
 
 This is the opensource code repository of the digital policy consultation tool that will serve as the backbone for policy consultations across several countries in Africa and beyond. It is a digital policy consultation across a nation as a Rails App with two key elements: (a) a ‘collaborative policy-writing’ tool (b) a Facebook messenger bot. The consultation will be live for a specified perod, after which the insight, feedback, and deliberation will be consolidated, integrated, and built into a revised citizen-driven national vision for ICT innovation and entrepreneurship.
 
-## Why does it matter? 
+## Work Flows
 
-As far as we know, this will mark the first national online policy consultation in Africa.
+We have a [project board](https://github.com/i4policy/policy_consultation/projects/1) that is interacting with our [issues list](https://github.com/i4policy/policy_consultation/issues) and subsequent pull request on those issues; the issues are labeled accordingly and associated with the [four milestones](https://github.com/i4policy/policy_consultation/milestones). 
+
+When all the four milestones are completed, we will be ready to deploy the first national online policy consultation in Africa starting July 2nd.
 
 ## User Stories
+
+##### User: innovation hub leaders, founders, employees, entrepreneurs, aspiring entrepreneurs, techies, programmers 
+##### Admin: Office of Sub-Saharan Country 
+##### Policy: Innovation and Entrepreneurship Policy Vision 
 
 ### Web App: 
 We are going to modify a fork of Consul (information and documentation can be found below), a civic engagement tool developed by the city council of Madrid from 2015 onward. The core user story is as follows: 
